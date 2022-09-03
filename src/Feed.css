@@ -1,0 +1,27 @@
+.feed {
+    flex: 1;
+    padding: 30px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f2f5;
+}
+
+@media screen and (max-width: 975px) {
+    .feed {
+        padding: 30px 100px;
+    }     
+}
+
+@media screen and (max-width: 905px) {
+    .feed {
+        padding: 30px 50px;
+    }     
+}
+
+@media screen and (max-width: 875px) {
+    .feed {
+        padding: 30px 20px;
+    }     
+}

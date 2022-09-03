@@ -1,0 +1,42 @@
+.widgets {
+    width: 400px;
+    background-color: #f1f2f5;
+}
+
+.widgets_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: flex-start;
+    padding: 10px;
+}
+
+.widgets_bar > h4 {
+    color: gray;
+    font-weight: 700;
+}
+
+.widgets_bar_icons > .MuiSvgIcon-root {
+    padding-left: 10px;
+    padding-top: 5px;
+    color: gray;
+    cursor: pointer;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 15px;
+}
+
+.contact > h4 {
+    padding-left: 10px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1155px) {
+    .widgets {
+        display: none;
+    }     
+}
